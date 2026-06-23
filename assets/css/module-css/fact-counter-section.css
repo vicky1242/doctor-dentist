@@ -1,0 +1,138 @@
+/*** 
+=============================================
+    Fact Counter Area style
+=============================================
+***/
+.fact-counter-area {
+    position: relative;
+    display: block;
+    z-index: 2;
+}
+
+.fact-counter-area.pdb120 {
+    padding-bottom: 120px;
+}
+
+.fact-counter-box {
+    position: relative;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.05);
+    margin-top: -100px;
+    z-index: 2;
+}
+
+
+.fact-counter-box__content {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding: 53px 0 54px;
+    border-radius: 5px;
+}
+
+.fact-counter-box__content .shape1 {
+    position: absolute;
+    bottom: -80px;
+    right: -65px;
+    width: 160px;
+    height: 160px;
+    background: var(--thm-base);
+    border-radius: 50%;
+}
+
+.fact-counter-box__content .shape2 {
+    position: absolute;
+    bottom: -35px;
+    right: 70px;
+    width: 60px;
+    height: 60px;
+    background: var(--thm-black);
+    border-radius: 50%;
+}
+
+.fact-counter-box__inner {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.single-fact-counter {
+    position: relative;
+    display: block;
+    max-width: 25%;
+    width: 100%;
+}
+
+.single-fact-counter:before {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    bottom: 8px;
+    width: 1px;
+    background: #d4dcdb;
+}
+
+.single-fact-counter:last-child:before {
+    display: none;
+}
+
+.single-fact-counter .inner {
+    position: relative;
+    display: block;
+    text-align: center;
+}
+
+.single-fact-counter .count-box {
+    position: relative;
+    display: block;
+    color: #1d2f38;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: var(--thm-font-2);
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-fact-counter:hover .count-box {
+    color: var(--thm-base);
+}
+
+.single-fact-counter .count-box span {
+    position: relative;
+    display: inline-block;
+    line-height: 60px;
+}
+
+/***
+.single-fact-counter .count-box .k {
+    position: relative;
+    display: inline-block;
+    margin-left: -15px;
+}
+.single-fact-counter .count-box .plus {
+    position: relative;
+    display: inline-block;
+    margin-left: -25px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 40px;
+}
+***/
+
+.single-fact-counter .title {
+    position: relative;
+    display: block;
+    padding-top: 11px;
+}
+
+.single-fact-counter .title h3 {
+    color: #6b767b;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: var(--thm-font);
+}

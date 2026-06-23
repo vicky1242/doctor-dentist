@@ -1,0 +1,376 @@
+/*** 
+=============================================
+    Footer area style
+=============================================
+***/
+.bottom-parallax {
+    position: relative;
+    height: 552px;
+    opacity: 0;
+    z-index: -999;
+}
+
+.bottom-parallax .footer-area {
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    height: 552px;
+}
+
+.parallax-visible .bottom-parallax {
+    opacity: 1;
+    z-index: 1;
+}
+
+.footer-area {
+    position: relative;
+    display: block;
+    z-index: 10;
+}
+
+.footer {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    padding-top: 100px;
+    padding-bottom: 89px;
+    background: var(--thm-black);
+    z-index: 9;
+}
+
+.footer-shape {
+    position: absolute;
+    top: 0;
+    left: -200px;
+    bottom: 0;
+    right: 0;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    opacity: 0.05;
+    -webkit-animation: bgSlideReverse 20s linear infinite;
+    animation: bgSlideReverse 20s linear infinite;
+}
+
+.single-footer-widget {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-footer-widget.martop12 {
+    margin-top: 12px;
+}
+
+.single-footer-widget .title {
+    position: relative;
+    display: block;
+    line-height: 0;
+    margin-top: -7px;
+    padding-bottom: 34px;
+}
+
+.single-footer-widget .title h3 {
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+.single-footer-widget .our-company-info {
+    position: relative;
+    display: block;
+    max-width: 370px;
+    width: 100%;
+}
+
+.single-footer-widget .our-company-info .footer-logo {
+    position: relative;
+    display: block;
+    padding-bottom: 31px;
+}
+
+.single-footer-widget .our-company-info .footer-logo a {
+    position: relative;
+    display: inline-block;
+}
+
+.single-footer-widget .our-company-info .text-box {
+    position: relative;
+    display: block;
+    padding-bottom: 31px;
+}
+
+.single-footer-widget .our-company-info .text-box p {
+    color: #b0bcc2;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.single-footer-widget .our-company-info ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.single-footer-widget .our-company-info ul li {
+    position: relative;
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 9px;
+}
+
+.single-footer-widget .our-company-info ul li:last-child {
+    margin-bottom: 0;
+}
+
+.single-footer-widget .our-company-info ul li span:before {
+    position: relative;
+    display: inline-block;
+    padding-right: 7px;
+    color: var(--thm-base);
+    top: 3px;
+    left: 1px;
+    font-weight: 400;
+}
+
+.single-footer-widget .our-company-info ul li a {
+    color: #ffffff;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.single-footer-widget .our-company-info ul li a:hover {
+    color: var(--thm-base);
+}
+
+
+
+
+.footer-widget-links {
+    position: relative;
+    display: block;
+    margin-top: -2px;
+    overflow: hidden;
+}
+
+.footer-widget-links ul {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.footer-widget-links ul li {
+    position: relative;
+    display: block;
+    line-height: 30px;
+    margin-bottom: 5px;
+}
+
+.footer-widget-links ul li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-widget-links ul li a {
+    position: relative;
+    display: inline-block;
+    color: #b0bcc2;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.footer-widget-links ul li a:hover {
+    color: var(--thm-base);
+}
+
+
+.footer-widget-timing-box {
+    position: relative;
+    display: block;
+}
+
+.footer-widget-timing-box .timing-list {
+    position: relative;
+    display: block;
+}
+
+.footer-widget-timing-box .timing-list li {
+    position: relative;
+    display: block;
+    color: #b0bcc2;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+
+.footer-widget-timing-box .timing-list li:last-child {
+    margin-bottom: 0;
+}
+
+
+.footer-social-link {
+    position: relative;
+    display: block;
+    padding-top: 31px;
+}
+
+.footer-social-link ul {}
+
+.footer-social-link ul li {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+}
+
+.footer-social-link ul li:last-child {
+    margin-right: 0 !important;
+}
+
+.footer-social-link ul li a {
+    position: relative;
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: #15242b;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 45px;
+    text-align: center;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+    z-index: 1;
+}
+
+.footer-social-link ul li:hover a {
+    color: #ffffff;
+}
+
+.footer-social-link ul li a:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: var(--thm-base);
+    content: "";
+    border-radius: 50%;
+    z-index: -1;
+    transform: scale(0.0);
+    transform-origin: center;
+    transform-style: preserve-3d;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.footer-social-link ul li a:hover:before {
+    transform: scaleX(1.0);
+}
+
+
+
+
+.footer-widget-location-box {
+    position: relative;
+    display: block;
+}
+
+.footer-widget-location-box .text {
+    position: relative;
+    display: block;
+    padding-bottom: 21px;
+}
+
+.footer-widget-location-box .text p {
+    color: #b0bcc2;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 0;
+}
+
+
+.home-page-map-outer {
+    position: relative;
+    display: block;
+}
+
+.home-page-map-outer .map-bg {
+    position: relative;
+    display: block;
+    max-width: 270px;
+    width: 100%;
+    height: 95px;
+    border-radius: 5px;
+}
+
+.home-page-map-outer .map-find {
+    position: relative;
+    display: block;
+    padding-top: 5px;
+}
+
+.home-page-map-outer .map-find a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 200ms linear;
+    transition-delay: 0.1s;
+}
+
+.home-page-map-outer .map-find a span:before {
+    position: relative;
+    display: inline-block;
+    padding-right: 5px;
+    color: var(--thm-base);
+    font-size: 16px;
+    top: 3px;
+}
+
+.home-page-map-outer .map-find a:hover {
+    color: var(--thm-base);
+}
+
+
+
+
+.footer-bottom {
+    position: relative;
+    display: block;
+    background: #15242b;
+    padding: 23px 0px 23px;
+}
+
+.footer-bottom .bottom-inner {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-bottom .bottom-inner .copyright {
+    position: relative;
+    display: block;
+}
+
+.footer-bottom .bottom-inner .copyright p {
+    color: #b0bcc2;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.footer-bottom .bottom-inner .copyright p a {
+    color: var(--thm-base);
+}

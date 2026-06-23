@@ -1,0 +1,1744 @@
+@media only screen and (max-width: 5000px) {
+
+    .boxed_wrapper_box_page {
+        overflow-x: hidden;
+    }
+
+
+
+
+}
+
+
+/* Large Layout: 1200px. */
+@media only screen and (min-width: 1200px) {}
+
+
+
+
+
+
+/* Medium screen  */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /*** Header Style One Css ***/
+    .header-top {
+        display: none;
+    }
+
+    .main-menu .navigation>li {
+        margin-right: 20px;
+    }
+
+    .header-left .nav-outer {
+        margin-left: 50px;
+    }
+
+    .header-right .header-social-link {
+        display: block;
+    }
+
+    .header-right .phone-number-box1 {
+        display: none;
+    }
+
+    .serach-button-style1 {
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+
+    /*** Contact Style1 Area Css ***/
+    .contact-style1__content-box {
+        max-width: 550px;
+        width: 100%;
+        margin: 30px auto 0;
+    }
+
+
+    /*** About Style1 Area Css ***/
+    .about-style1__image {
+        margin: 0 auto;
+    }
+
+    .about-style1__content {
+        padding-top: 60px;
+        padding-left: 0px;
+    }
+
+    .about-style1__content .inner-content .bottom-box {
+        min-height: 140px;
+    }
+
+    /*** Service Style1 Css ***/
+    .service-style1__top-title .sec-title {
+        max-width: none;
+        width: 100%;
+        float: none;
+    }
+
+    .service-style1__top-title .text-box {
+        float: none;
+        max-width: none;
+        margin-top: 15px;
+    }
+
+    .single-service-style1 .title-holder {
+        padding: 34px 29px 30px;
+    }
+
+    .single-service-style1 .title-holder .text p {
+        font-size: 16px;
+    }
+
+    /*** Dental Practice Style1 Area Css ***/
+    .dental-practice-style1-area {
+        padding: 120px 0px 120px;
+    }
+
+    .dental-practice-style1-area__bg {
+        width: 100%;
+        background-size: cover;
+        background-position: top right;
+        background-blend-mode: luminosity;
+        opacity: 0.20;
+        background-color: var(--thm-black);
+    }
+
+    .dental-practice-style1-right {
+        max-width: 305px;
+        width: 100%;
+        height: 120px;
+        margin-top: 30px;
+        padding-left: 40px;
+        margin-left: 0;
+    }
+
+
+    /*** Blog Style1 Area Css ***/
+    .single-blog-style1 {
+        max-width: 570px;
+        width: 100%;
+        margin: 0 auto 40px;
+    }
+
+    /*** Footer Area Css ***/
+    .single-footer-widget.marbtm50 {
+        margin-bottom: 50px;
+    }
+
+
+    /*** About Style2 Area Css ***/
+    .about-style2-content {
+        padding: 120px 0 100px;
+        margin-right: 0px;
+    }
+
+    .about-style2-content-bottom {
+        margin-top: 50px;
+        padding-bottom: 30px;
+        max-width: 700px;
+    }
+
+    .about-style2-img-box {
+        padding-top: 0px;
+        max-width: 500px;
+    }
+
+
+    /*** Faq Style1 Area Css ***/
+    .faq-style1__text-box {
+        padding-right: 0px;
+    }
+
+    .faq-style1__text-box .sec-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 49px;
+    }
+
+    .faq-style1__text-box .inner-content {
+        max-width: 100%;
+    }
+
+    .faq-style1__text-box .inner-content .text-box {
+        max-width: 630px;
+        width: 100%;
+        top: 0;
+    }
+
+    .faq-style1-content {
+        position: relative;
+        display: block;
+        margin-top: 50px;
+    }
+
+
+    /*** Faq Style1 Area Css ***/
+    .features-style1__bg {
+        top: 120px;
+        left: 30px;
+        bottom: auto;
+        right: 30px;
+        height: 600px;
+        background-position: bottom right;
+        border-top-left-radius: 5px;
+    }
+
+    .features-style1__content {
+        padding-top: 670px;
+    }
+
+    /*** Faq Style1 Area Css ***/
+    .opening-hours__content-inner {
+        padding-left: 30px;
+        padding-right: 20px;
+    }
+
+    .opening-hours__content-inner .inner-title {
+        width: 285px;
+    }
+
+    .opening-hours__content-inner ul {
+        padding-left: 0;
+    }
+
+    .opening-hours__content-inner ul li {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .opening-hours__content-inner ul li h3 {
+        font-size: 17px;
+    }
+
+
+    /*** About Style3 Area Css ***/
+    .about-style3-content {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    /*** Team Details Area Css ***/
+    .team-details-content-box {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+
+    /*** Main Contact Form Area Css ***/
+    .main-contact-form-area {
+        padding: 120px 0 120px;
+    }
+
+    .contact-style1_form {
+        margin-top: 50px;
+    }
+
+
+
+
+    .bottom-parallax,
+    .parallax-visible .bottom-parallax {
+        position: relative;
+        height: auto;
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+    }
+
+    .bottom-parallax .footer-area {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+
+}
+
+
+
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*** Header Style One Css ***/
+    .header-top {
+        display: none;
+    }
+
+    .main-menu .navigation>li {
+        margin-right: 20px;
+    }
+
+    .header-left .nav-outer {
+        margin-left: 50px;
+    }
+
+    .header-right .header-social-link {
+        display: none;
+    }
+
+    .header-right .phone-number-box1 {
+        display: none;
+    }
+
+    .serach-button-style1 {
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+
+    /*** Contact Style1 Area Css ***/
+    .contact-form-box1 {
+        margin-top: 30px;
+    }
+
+    .contact-style1__content-box {
+        max-width: 550px;
+        width: 100%;
+        margin: 30px auto 0;
+    }
+
+    /*** About Style1 Area Css ***/
+    .about-style1__image {
+        margin: 0 auto;
+    }
+
+    .about-style1__content {
+        padding-top: 60px;
+        padding-left: 0px;
+    }
+
+    .about-style1__content .inner-content .bottom-box {
+        min-height: 140px;
+    }
+
+
+    /*** Service Style1 Css ***/
+    .service-style1-area .sec-title .sub-title {
+        justify-content: center;
+    }
+
+    .service-style1__top-title {
+        text-align: center;
+    }
+
+    .service-style1__top-title .sec-title {
+        max-width: none;
+        width: 100%;
+        float: none;
+    }
+
+    .service-style1__top-title .text-box {
+        float: none;
+        max-width: none;
+        margin-top: 15px;
+    }
+
+    .single-service-style1 {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+
+
+    /*** Dental Practice Style1 Area Css ***/
+    .dental-practice-style1-area {
+        padding: 120px 0px 120px;
+    }
+
+    .dental-practice-style1-area__bg {
+        width: 100%;
+        background-size: cover;
+        background-position: top right;
+        background-blend-mode: luminosity;
+        opacity: 0.20;
+        background-color: var(--thm-black);
+    }
+
+    .dental-practice-style1-right {
+        max-width: 350px;
+        width: 100%;
+        height: 120px;
+        margin-top: 30px;
+        padding-left: 60px;
+        margin-left: 0;
+    }
+
+
+    /*** Blog Style1 Area Css ***/
+    .single-blog-style1 {
+        max-width: 570px;
+        width: 100%;
+        margin: 0 auto 40px;
+    }
+
+    /*** Footer Area Css ***/
+    .single-footer-widget.marbtm50 {
+        margin-bottom: 50px;
+    }
+
+
+
+    /*** Callto Action Style2 Area Css ***/
+    .callto-action-style2-area {
+        padding: 90px 0px 100px;
+    }
+
+    .callto-action-style2__conent {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .callto-action-style2__conent .title {
+        margin-bottom: 30px;
+    }
+
+
+    /*** About Style2 Area Css ***/
+    .about-style2-content {
+        padding: 120px 0 100px;
+        margin-right: 0px;
+    }
+
+    .about-style2-content-bottom {
+        margin-top: 50px;
+        padding-bottom: 30px;
+        max-width: 700px;
+    }
+
+    .about-style2-img-box {
+        padding-top: 0px;
+        max-width: 500px;
+    }
+
+    /*** Services Style2 Area Css ***/
+    .single-services-style2 {
+        padding: 42px 0px 50px;
+        padding-left: 30px;
+        padding-right: 70px;
+    }
+
+    .single-services-style2 .icon {
+        bottom: 50px;
+        right: 31px;
+    }
+
+    /*** Video Gallery Style1 Area Css ***/
+    .video-gallery-style1__video-holder h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0 0 54px;
+    }
+
+
+    /*** Faq Style1 Area Css ***/
+    .faq-style1__text-box {
+        padding-right: 0px;
+    }
+
+    .faq-style1__text-box .sec-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 49px;
+    }
+
+    .faq-style1__text-box .inner-content {
+        max-width: 100%;
+    }
+
+    .faq-style1__text-box .inner-content .text-box {
+        max-width: 420px;
+        width: 100%;
+        top: 0;
+    }
+
+    .faq-style1-content {
+        position: relative;
+        display: block;
+        margin-top: 50px;
+    }
+
+
+    /*** Fact Counter Area Css ***/
+    .single-fact-counter .count-box {
+        font-size: 40px;
+    }
+
+    .single-fact-counter .title {
+        padding-top: 6px;
+    }
+
+    .single-fact-counter .title h3 {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    /*** Faq Style1 Area Css ***/
+    .features-style1__bg {
+        top: 120px;
+        left: 30px;
+        bottom: auto;
+        right: 30px;
+        height: 600px;
+        background-position: bottom right;
+        border-radius: 5px;
+    }
+
+    .features-style1__content {
+        padding-top: 660px;
+    }
+
+
+    /*** Faq Style1 Area Css ***/
+    .opening-hours__content-inner {
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .opening-hours__content-inner .inner-title {
+        width: 285px;
+        margin-bottom: 27px;
+    }
+
+    .opening-hours__content-inner ul {
+        padding-left: 0;
+    }
+
+    .opening-hours__content-inner ul li {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .opening-hours__content-inner ul li::before {
+        top: 4px;
+        bottom: 5px;
+    }
+
+    .opening-hours__content-inner ul li h3 {
+        font-size: 17px;
+    }
+
+
+    /*** About Style3 Area Css ***/
+    .about-style3-content {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+
+    /*** Team Details Area Css ***/
+    .team-details-content-box {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    /*** Service Details Area Css ***/
+    .thm-sidebar-box {
+        margin-top: 80px;
+    }
+
+    /*** Blog Details Area Css ***/
+    .blog-details-content .single-blog-style1 {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto 40px;
+    }
+
+
+    /*** Main Contact Form Area Css ***/
+    .main-contact-form-area {
+        padding: 120px 0 120px;
+    }
+
+    .contact-style1_form {
+        margin-top: 50px;
+    }
+
+
+
+    .bottom-parallax,
+    .parallax-visible .bottom-parallax {
+        position: relative;
+        height: auto;
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+    }
+
+    .bottom-parallax .footer-area {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+    .sec-title {
+        padding-bottom: 41px;
+    }
+
+    .sec-title .sub-title {
+        padding-bottom: 15px;
+    }
+
+    .sec-title h2 {
+        font-size: 38px;
+    }
+
+    .sec-title h2 br {
+        display: none;
+    }
+
+
+
+    /*** Header Style One Css ***/
+    .header-top {
+        display: none;
+    }
+
+    .header .auto-container {
+        padding: 0px 20px;
+    }
+
+    .header-left {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .header-left .nav-outer {
+        float: right;
+        margin-left: 0;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+
+    /*** Contact Style1 Area Css ***/
+    .contact-form-box1 {
+        margin-top: 30px;
+        padding: 40px 30px 40px;
+    }
+
+    .contact-style1__content-box {
+        padding: 50px 30px 68px;
+        max-width: 550px;
+        width: 100%;
+        margin: 30px auto 0;
+    }
+
+
+    /*** About Style1 Area Css ***/
+    .about-style1__image {
+        margin: 0 auto;
+    }
+
+    .about-style1__image::before {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        bottom: 30px;
+        right: 30px;
+        background: #1d2f38;
+        border-radius: 5px;
+        content: "";
+        z-index: 1;
+        opacity: 0.30;
+    }
+
+    .about-style1__image .white-round-box {
+        display: none;
+    }
+
+    .about-style1__image .icon {
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+
+    .about-style1__content {
+        padding-top: 60px;
+        padding-left: 0px;
+    }
+
+    .about-style1__content .inner-content .bottom-box {
+        padding: 0;
+        min-height: auto;
+    }
+
+    .about-style1__content .inner-content .bottom-box .left {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 165px;
+    }
+
+    .about-style1__content .inner-content .bottom-box .right {
+        margin-top: 25px;
+        padding-left: 0;
+    }
+
+    .about-style1__content .inner-content .bottom-box .right::before {
+        display: none;
+    }
+
+
+    /*** slogan Style1 Area Css ***/
+    .slogan-area {
+        padding: 110px 0 120px;
+    }
+
+    .slogan-area .title {
+        margin: 0 0 40px;
+    }
+
+    .slogan-area .title h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .slogan-area .title h2 br {
+        display: none;
+    }
+
+
+    /*** Service Style1 Css ***/
+    .service-style1-area .sec-title .sub-title {
+        justify-content: center;
+    }
+
+    .service-style1__top-title {
+        text-align: center;
+    }
+
+    .service-style1__top-title .sec-title {
+        max-width: none;
+        width: 100%;
+        float: none;
+    }
+
+    .service-style1__top-title .text-box {
+        float: none;
+        max-width: none;
+        margin-top: 15px;
+    }
+
+    .single-service-style1 {
+        max-width: 500px;
+        width: 100%;
+        margin: 0 auto 30px;
+    }
+
+    .single-service-style1 .title-holder {
+        padding: 34px 29px 30px;
+    }
+
+    .single-service-style1 .title-holder .text p {
+        font-size: 17px;
+    }
+
+    /*** Before After Work Area Css ***/
+    .before-after-work-area .gray-bg {
+        height: 60%;
+    }
+
+    /*** Dental Practice Style1 Area Css ***/
+    .dental-practice-style1-area {
+        padding: 120px 0px 120px;
+    }
+
+    .dental-practice-style1-area__bg {
+        opacity: 0;
+    }
+
+    .dental-practice-style1-right {
+        max-width: 305px;
+        width: 100%;
+        height: 120px;
+        margin-top: 30px;
+        padding-left: 40px;
+        margin-left: 0;
+    }
+
+    .dental-practice-style1-right-inner .title h4 {
+        font-size: 18px;
+    }
+
+
+    /*** slogan Style2 Area Css ***/
+    .slogan-style2-area {
+        padding: 110px 0 109px;
+    }
+
+    .slogan-style2-area .title {
+        margin: 0 0 40px;
+    }
+
+    .slogan-style2-area .title h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .slogan-style2-area .title h2 br {
+        display: none;
+    }
+
+
+
+    /*** Footer Area Css ***/
+    .single-footer-widget.marbtm50 {
+        margin-bottom: 50px;
+    }
+
+    .single-footer-widget.pdtop50 {
+        padding-top: 50px;
+    }
+
+    .footer-bottom .bottom-inner {
+        text-align: center;
+    }
+
+    .footer-bottom .bottom-inner .copyright p {
+        line-height: 24px;
+    }
+
+
+
+    /*** Header Style Two Css ***/
+    .header-top-style2 {
+        display: none;
+    }
+
+    .header-style2-right {
+        display: none;
+    }
+
+    .header-style2__left {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .header-style2__left .nav-outer {
+        float: none;
+        margin-left: 0px;
+    }
+
+
+    /*** Callto Action Style2 Area Css ***/
+    .callto-action-style2-area {
+        padding: 90px 0px 100px;
+    }
+
+    .callto-action-style2__conent {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .callto-action-style2__conent .title {
+        margin-bottom: 30px;
+    }
+
+
+    /*** About Style2 Area Css ***/
+    .about-style2-content {
+        padding: 120px 0 60px;
+        margin-right: 0px;
+    }
+
+    .about-style2-content-bottom {
+        margin-top: 50px;
+        padding-bottom: 30px;
+        max-width: 700px;
+    }
+
+    .about-style2-content-list {
+        float: none;
+    }
+
+    .about-style2-content-expeirence-box {
+        padding: 32px 0px 32px;
+        float: none;
+        margin-top: 32px;
+    }
+
+    .about-style2-img-box {
+        padding-top: 0px;
+        max-width: 500px;
+    }
+
+    .about-style2-img-box .main-img-box img {
+        max-width: 100%;
+        float: none;
+    }
+
+    .about-style2-img-box .gray-bg {
+        display: none;
+    }
+
+    .about-style2-img-box .base-bg {
+        display: none;
+    }
+
+    .about-style2-img-box .black-bg {
+        display: none;
+    }
+
+
+    /*** Services Style2 Area Css ***/
+    .single-services-style2 {
+        padding: 42px 0px 50px;
+        padding-left: 30px;
+        padding-right: 70px;
+    }
+
+    .single-services-style2 .icon {
+        bottom: 50px;
+        right: 31px;
+    }
+
+    /*** Video Gallery Style1 Area Css ***/
+    .video-gallery-style1-area {
+        padding: 110px 0 0px;
+    }
+
+    .video-gallery-style1__video-holder h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin: 0 0 56px;
+    }
+
+    .video-gallery-style1__video-holder h2 br {
+        display: none;
+    }
+
+    .video-gallery-style1_content .text-box {
+        position: relative;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 275px;
+        padding: 50px 40px 43px;
+        margin-top: 66px;
+    }
+
+
+    /*** Faq Style1 Area Css ***/
+    .faq-style1__text-box {
+        padding-right: 0px;
+    }
+
+    .faq-style1__text-box .sec-title {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    .faq-style1__text-box .inner-content {
+        max-width: 100%;
+        justify-content: center;
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .faq-style1__text-box .inner-content .text-box {
+        max-width: 100%;
+        width: 100%;
+        top: 0;
+    }
+
+    .faq-style1__text-box .inner-content .img-box {
+        margin: 30px auto 0;
+    }
+
+    .faq-style1-content {
+        position: relative;
+        display: block;
+        margin-top: 50px;
+    }
+
+    .accordion-box .block .acc-btn {
+        padding: 21px 40px 22px 25px;
+    }
+
+    .accordion-box .block .acc-btn .icon-outer {
+        right: 20px;
+    }
+
+    .accordion-box .block .acc-content {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+
+    /*** Fact Counter Area Css ***/
+    .fact-counter-box__inner {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .single-fact-counter {
+        max-width: 100%;
+        margin-bottom: 32px;
+    }
+
+    .single-fact-counter:last-child {
+        margin-bottom: 0;
+    }
+
+    .single-fact-counter:before {
+        display: none;
+    }
+
+
+    /*** Faq Style1 Area Css ***/
+    .features-style1__bg {
+        top: 120px;
+        left: 15px;
+        bottom: auto;
+        right: 15px;
+        height: 600px;
+        background-position: bottom right;
+        border-radius: 5px;
+    }
+
+    .features-style1__content {
+        padding-top: 650px;
+    }
+
+    .features-style1__content-middle ul {
+        display: block;
+    }
+
+    .features-style1__content-middle ul li {
+        margin-top: 30px;
+        margin-left: 0px;
+    }
+
+
+    /*** Faq Style1 Area Css ***/
+    .opening-hours__content {
+        padding-top: 70px;
+        padding-left: 0px;
+        padding-bottom: 62px;
+    }
+
+    .clock-icon-box {
+        position: relative;
+        top: 0;
+        left: 0;
+        bottom: auto;
+        right: 0;
+        width: 165px;
+        height: 190px;
+        margin: 0 auto 32px;
+    }
+
+    .clock-icon-box span {
+        position: relative;
+        display: inline-block;
+        top: 5px;
+    }
+
+    .opening-hours__content-inner {
+        padding-left: 30px;
+        padding-right: 30px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .opening-hours__content-inner .inner-title {
+        width: 285px;
+        margin-bottom: 27px;
+    }
+
+    .opening-hours__content-inner ul {
+        display: block;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .opening-hours__content-inner ul li {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .opening-hours__content-inner ul li:last-child {
+        margin-top: 17px;
+    }
+
+    .opening-hours__content-inner ul li::before {
+        display: none;
+    }
+
+    .opening-hours__content-inner ul li h3 {
+        font-size: 17px;
+    }
+
+
+    /*** About Style3 Area Css ***/
+    .about-style3-img-box {
+        margin-right: 0px;
+    }
+
+    .about-style3-img-box .main-img-box ul {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .about-style3-img-box .main-img-box ul li {
+        float: none;
+        padding: 0 0px;
+    }
+
+    .about-style3-img-box .main-img-box ul li+li {
+        margin-top: 30px;
+    }
+
+    .about-style3-img-box .overlay-content {
+        top: 50px;
+        left: 20px;
+    }
+
+    .about-style3-content {
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+    /*** Team Details Area Css ***/
+    .team-details-content-box {
+        margin-top: 60px;
+        margin-left: 0px;
+    }
+
+    /*** Service Details Area Css ***/
+    .thm-sidebar-box {
+        margin-top: 80px;
+    }
+
+    .sidebar-contact-info-box {
+        padding: 42px 20px 50px;
+    }
+
+    /*** Blog Details Area Css ***/
+    .blog-details-content .single-blog-style1 {
+        max-width: 100%;
+        width: 100%;
+        margin: 0 auto 40px;
+    }
+
+    .tag-social-share-box {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+    .tag-social-share-box .post-social-share {
+        margin-top: 20px;
+    }
+
+    .post-social-share-links ul li {
+        float: none;
+        margin-right: 0;
+        margin: 0 3px;
+    }
+
+    .blog-details-author {
+        padding: 60px 30px 60px;
+    }
+
+    .blog-details-author .inner-box .img-box,
+    .blog-details-author .inner-box .text {
+        display: block;
+    }
+
+    .blog-details-author .inner-box .text {
+        margin-top: 34px;
+        padding-left: 0px;
+    }
+
+    .comment-box .single-comment-box {
+        padding-left: 0;
+    }
+
+    .comment-box .single-comment-box .img-holder {
+        position: relative;
+        left: 0;
+        top: 12px;
+    }
+
+    .comment-box .single-comment-box .text-holder {
+        margin-top: 40px;
+        padding-left: 0px;
+    }
+
+    .comment-box .single-comment-box .text-holder .top {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .comment-box .single-comment-box .text-holder .top .reply {
+        margin-top: 13px;
+    }
+
+
+    .single-sidebar-box {
+        padding: 50px 20px 50px;
+    }
+
+
+    /*** Main Contact Form Area Css ***/
+    .main-contact-form-area {
+        padding: 120px 0 120px;
+    }
+
+    .contact-style1_form {
+        margin-top: 50px;
+    }
+
+    .contact-info-box-1 ul li .text p {
+        font-size: 15px;
+    }
+
+
+
+    .sidebar-blog-post ul li .title-box h4 {
+        font-size: 15px;
+    }
+
+
+    .bottom-parallax,
+    .parallax-visible .bottom-parallax {
+        position: relative;
+        height: auto;
+        opacity: 1;
+        visibility: visible;
+        z-index: 10;
+    }
+
+    .bottom-parallax .footer-area {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: auto;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .main-menu .navigation>li>ul,
+    .main-menu .navigation>li>ul>li>ul,
+    .main-menu .navigation>li .megamenu {
+        display: block !important;
+        visibility: hidden;
+        opacity: 0;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width: 1199px) {
+
+
+    .main-header .main-menu {
+        position: relative;
+        display: block;
+        width: 100%;
+        float: none;
+    }
+
+    .main-header .nav-outer .main-menu,
+    .sticky-header {
+        display: none !important;
+    }
+
+    .nav-outer .mobile-nav-toggler {
+        display: block;
+    }
+
+    .mobile-nav-toggler .icon-bar {
+        position: relative;
+        display: block;
+        background: #ffffff;
+        height: 2px;
+        width: 30px;
+        margin: 7px 5px;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+
+    /*** Header Style One Css ***/
+    .main-menu .navigation>li {
+        margin-right: 30px;
+    }
+
+    .header-left .nav-outer {
+        margin-left: 80px;
+    }
+
+    .header-right .header-social-link {
+        display: none;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1599px) {
+
+    /*** Header Style One Css ***/
+    .main-menu .navigation>li {
+        margin-right: 20px;
+    }
+
+    .header-left .nav-outer {
+        margin-left: 50px;
+    }
+
+    .header-right .header-social-link {
+        display: none;
+    }
+
+    .header-right .phone-number-box1 {
+        display: none;
+    }
+
+    .serach-button-style1 {
+        margin-left: 15px;
+        margin-right: 5px;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1650px) and (max-width: 1900px) {}
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1649px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) and (max-width: 1420px) {
+
+    /*** Main Slider Css ***/
+    .main-slider .auto-container {
+        padding: 0px 120px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /*** Main Slider Css ***/
+    .main-slider .auto-container {
+        padding: 0px 120px;
+    }
+
+    /*** Main Slider Style1 Css ***/
+    .main-slider .content .big-title h2 {
+        font-size: 55px;
+    }
+
+    .main-slider .content .big-title h2 span:before {
+        top: -100px;
+        left: 70px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+
+    /*** Main Slider Style2 Css ***/
+    .main-slider.style2 .content {
+        padding-top: 290px;
+        padding-bottom: 200px;
+    }
+
+    .main-slider.style2 .content .big-title h2 {
+        font-size: 75px;
+    }
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    /*** Main Slider Css ***/
+    .main-slider .auto-container {
+        padding: 0px 120px;
+    }
+
+    /*** Main Slider Style1 Css ***/
+    .main-slider .content .big-title h2 {
+        font-size: 55px;
+    }
+
+    .main-slider .content .big-title h2 span:before {
+        top: -100px;
+        left: 70px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+
+
+    /*** Main Slider Style2 Css ***/
+    .main-slider.style2 .content {
+        padding-top: 250px;
+        padding-bottom: 160px;
+    }
+
+    .main-slider.style2 .content .big-title {
+        margin-bottom: 38px;
+    }
+
+    .main-slider.style2 .content .big-title h2 {
+        font-size: 55px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+@media only screen and (min-width: 500px) and (max-width: 767px) {
+    .main-slider.style2 {
+        margin-top: 0px;
+    }
+
+    /*** Main Slider Css ***/
+    .main-slider .owl-theme .owl-nav {
+        display: none;
+    }
+
+    .main-slider .auto-container {
+        padding: 0px 50px;
+        padding-right: 50px;
+    }
+
+
+    /*** Main Slider Style1 Css ***/
+    .main-slider.style1 .content {
+        padding-top: 162px;
+        padding-bottom: 170px;
+    }
+
+    .main-slider .content .big-title h2 {
+        font-size: 55px;
+    }
+
+    .main-slider .content .big-title h2 span:before {
+        top: -100px;
+        left: 70px;
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .main-slider .content .text {
+        margin-bottom: 43px;
+    }
+
+
+    /*** Main Slider Style2 Css ***/
+    .main-slider.style2 .content {
+        padding-top: 250px;
+        padding-bottom: 160px;
+    }
+
+    .main-slider.style2 .content .big-title {
+        margin-bottom: 38px;
+    }
+
+    .main-slider.style2 .content .big-title h2 {
+        font-size: 55px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 499px) {
+
+    /*** Main Slider Css ***/
+    .main-slider .owl-theme .owl-nav {
+        display: none;
+    }
+
+    .main-slider .auto-container {
+        padding: 0px 20px;
+        padding-right: 20px;
+    }
+
+
+
+    /*** Main Slider Style1 Css ***/
+    .main-slider.style1 .content {
+        padding-top: 142px;
+        padding-bottom: 150px;
+    }
+
+    .main-slider .content .big-title h2 {
+        font-size: 45px;
+    }
+
+    .main-slider .content .big-title h2 br {
+        display: none;
+    }
+
+    .main-slider .content .big-title h2 span:before {
+        display: none;
+    }
+
+    .main-slider .content .big-title h2 span img {
+        display: none;
+    }
+
+    .main-slider .content .text {
+        margin-bottom: 43px;
+    }
+
+
+
+    /*** Main Slider Style2 Css ***/
+    .main-slider.style2 {
+        margin-top: 0px;
+    }
+
+    .main-slider.style2 .content {
+        padding-top: 250px;
+        padding-bottom: 160px;
+    }
+
+    .main-slider.style2 .content .big-title {
+        margin-bottom: 40px;
+    }
+
+    .main-slider.style2 .content .big-title h2 {
+        font-size: 45px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 1199px) {
+    .order-2 {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .order-1 {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .order-box-2 {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .order-box-1 {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 767px) {
+    .order-box-2 {
+        -ms-flex-order: 2;
+        order: 2;
+    }
+
+    .order-box-1 {
+        -ms-flex-order: 1;
+        order: 1;
+    }
+
+
+}

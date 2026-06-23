@@ -1,0 +1,371 @@
+/*** 
+=============================================
+    Faq Style1 Area Css
+=============================================
+***/
+.faq-style1-area {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 0px 0 0px;
+    z-index: 1;
+}
+
+.faq-style1-area .auto-container {
+    max-width: 1600px;
+}
+
+.faq-style1__gray-bg {
+    position: relative;
+    display: block;
+    background: #edf3f2;
+    border-radius: 5px;
+    padding-top: 120px;
+    padding-bottom: 215px;
+}
+
+.faq-style1__text-box {
+    position: relative;
+    display: block;
+    padding-right: 30px;
+}
+
+.faq-style1__text-box .sec-title {
+    padding-bottom: 43px;
+}
+
+.faq-style1__text-box .inner-content {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.faq-style1__text-box .inner-content .text-box {
+    position: relative;
+    display: block;
+    max-width: 270px;
+    width: 100%;
+    top: -7px;
+}
+
+.faq-style1__text-box .inner-content .text-box p {
+    font-weight: 500;
+    line-height: 38px;
+    margin: 0;
+}
+
+
+.faq-style1__text-box .inner-content .img-box {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    max-width: 240px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.faq-style1__text-box .inner-content .img-box img {
+    width: 100%;
+}
+
+.faq-style1__text-box .inner-content .img-box::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 0;
+    background-color: rgba(var(--thm-base-rgb), .80);
+    border-radius: 10%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    z-index: 1;
+}
+
+.faq-style1__text-box:hover .inner-content .img-box::before {
+    -webkit-animation: circle .95s;
+    animation: circle .95s;
+}
+
+
+
+
+.faq-style1__content {
+    position: relative;
+    display: block;
+}
+
+.accordion-box {
+    position: relative;
+    display: block;
+}
+
+.accordion-box .block {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    transition: all 500ms ease;
+}
+
+.accordion-box .block:last-child {
+    margin-bottom: 0px;
+}
+
+.accordion-box .block .acc-content.current {
+    display: block;
+}
+
+.accordion-box .block .acc-btn {
+    position: relative;
+    display: block;
+    background: #fff;
+    border-radius: 5px;
+    padding: 21px 70px 22px 40px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 20px 5px rgb(0 0 0 / 2%);
+    transition: all 500ms ease;
+}
+
+.accordion-box .block .acc-btn.active {
+    background: #fff;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    box-shadow: none;
+}
+
+.accordion-box .block .acc-btn h3 {
+    color: var(--thm-black);
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    font-family: var(--thm-font);
+    transition: all 500ms ease;
+}
+
+.accordion-box .block .acc-btn.active h3 {
+    color: var(--thm-base);
+}
+
+.accordion-box .block .acc-btn .icon-outer {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    color: var(--thm-black);
+    font-size: 12px;
+    text-align: center;
+    line-height: 34px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #e7e7e7;
+    transform: translateY(-50%) rotate(-90deg);
+    transition: all 500ms ease;
+    z-index: 1;
+}
+
+.accordion-box .block .acc-btn.active .icon-outer {
+    color: #fff;
+    border-color: var(--thm-base);
+    background-color: var(--thm-base);
+    transform: translateY(-50%) rotate(360deg);
+}
+
+/***
+.accordion-box .block .acc-btn.active .icon-outer i:before {
+    position: relative;
+    font-size: 25px;
+    font-family: flaticon !important;
+    font-weight: 400;
+    margin: 0px;
+    content: "\f113";
+}
+**/
+.accordion-box .block .acc-content {
+    position: relative;
+    display: none;
+    background: #ffffff;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 60px;
+    padding-bottom: 29px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-top: 1px;
+}
+
+.accordion-box .block .acc-content p {
+    margin: 0;
+}
+
+
+
+/*** 
+=============================================
+    Faq Page One Css
+=============================================
+***/
+.faq-page-one {
+    position: relative;
+    display: block;
+    background: #ffffff;
+    padding: 120px 0 120px;
+}
+
+
+.faq-form-box {
+    position: relative;
+    display: block;
+}
+
+.faq-form-box form {
+    position: relative;
+    display: block;
+}
+
+.faq-form-box form .input-box {
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.faq-form-box form input[type="text"],
+.faq-form-box form input[type="email"],
+.faq-form-box form textarea {
+    position: relative;
+    display: block;
+    background: #edf3f2;
+    border: 0px solid #edf3f2;
+    width: 100%;
+    height: 71px;
+    color: var(--thm-gray);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: none;
+    padding: 0 30px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+    font-family: var(--thm-font);
+}
+
+.faq-form-box form textarea {
+    height: 99px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.faq-form-box form input[type="text"]:focus {
+    color: #171717;
+}
+
+.faq-form-box form input[type="email"]:focus {
+    color: #171717;
+}
+
+.faq-form-box form textarea:focus {
+    color: #171717;
+}
+
+.faq-form-box form input[type="text"]::-webkit-input-placeholder {
+    color: #757575;
+}
+
+.faq-form-box form input[type="text"]:-moz-placeholder {
+    color: #757575;
+}
+
+.faq-form-box form input[type="text"]::-moz-placeholder {
+    color: #757575;
+}
+
+.faq-form-box form input[type="text"]:-ms-input-placeholder {
+    color: #757575;
+}
+
+.faq-form-box form input[type="email"]::-webkit-input-placeholder {
+    color: #757575;
+}
+
+.faq-form-box form input[type="email"]:-moz-placeholder {
+    color: #757575;
+}
+
+.faq-form-box form input[type="email"]::-moz-placeholder {
+    color: #757575;
+}
+
+.faq-form-box form input[type="email"]:-ms-input-placeholder {
+    color: #757575;
+}
+
+.faq-form-box form textarea::-webkit-input-placeholder {
+    color: #757575;
+}
+
+.faq-form-box form textarea:-moz-placeholder {
+    color: #757575;
+}
+
+.faq-form-box form textarea::-moz-placeholder {
+    color: #757575;
+}
+
+.faq-form-box form textarea:-ms-input-placeholder {
+    color: #757575;
+}
+
+
+/** nice-select **/
+.faq-form-box form .select-box {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 71px;
+    background: #edf3f2;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.faq-form-box form .select-box .nice-select {
+    position: relative;
+    display: block;
+    background: #edf3f2;
+    border-radius: 5px;
+    border: 0px solid #e5e7ec;
+    color: #757575;
+    font-size: 14px;
+    font-weight: 500;
+    height: 71px;
+    line-height: 69px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: var(--thm-font);
+}
+
+.faq-form-box form .select-box .nice-select:after {
+    right: 32px;
+    margin-top: -4px;
+}
+
+.faq-form-box form .button-box {
+    position: relative;
+    display: block;
+    line-height: 0;
+    text-align: right;
+}
+
+.faq-form-box form .button-box button {}
+
+
+
+
+.faq-page-one .accordion-box .block .acc-btn.active {
+    background: #edf3f2;
+}
